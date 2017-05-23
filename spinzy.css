@@ -11,12 +11,25 @@ and (min-width : 900px)  {
 
 body {
 	font-family: 'Roboto Slab', serif;
-	padding: 30px;
+	padding: 20px;
+}
+
+#title {
+	font-size: calc(25px + 2vw);
+}
+
+#points-header,
+#points-value {
+	display: inline-block;
+}
+
+#points {
+    padding: 20px 0px;
 }
 
 #spinny-container {
 	text-align: center; 
-	margin-top: 40%;
+	margin-top: 30%;
 }
 
 #spinny {
