@@ -1,60 +1,25 @@
 <html>
+	<meta name="viewport" content="width=device-width" />
+
 	<head>
-<!--
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/utils/Draggable.min.js"></script>
-		<script src="http://web.stanford.edu/group/instr_design/case_study/js/greensock/plugins/ThrowPropsPlugin.min.js"></script>
--->
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-
-		<script src="propeller.js"></script>
+		<link rel="stylesheet" type="text/css" href="spinzy.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	</head>
-	
-	
-	
 
-<body>
-		<div style="    width: 410px;
-    height: 410px;
-    margin: auto;
-    margin-top: 200px;">
-		<img  id="spinny" id="knob" src="fidget.jpg" width="410" height="410"/>
-	</div>
-	<style>
-		@media only screen 
-		and (max-width : 736px) { 
-			#spinny {
-				width: 80%;
-			    height: auto;
-			    margin-left: 89px;
-			    margin-top: 300px;
-			}
-		}
-</style>
-
-
-</body>
-
-<script>
-	
-	
-	$('#spinny').propeller({inertia:0.9});
-
-	//it doesn't get much easier than this;)
-/*
-Draggable.create("#spinny", {
-  type: "rotation",
-  throwProps: true,
-  dragResistance: 0,
-  autoscroll: 1000,
-  minDuration: 10,
-  maxDuration:200000
-});
-*/
-
-
-
-</script>
+	<body>
+		<h2>Spinzy</h2>
+		<div id="spinny-container">
+			<img  id="spinny" src="fidget.jpg"/>
+		</div>
+	</body>
+		
+	<footer>
+		<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous">
+		</script>
+		<script src="propeller.js"></script>
+		<script src="spinzy.js"></script>
+	</footer>
+</html>
