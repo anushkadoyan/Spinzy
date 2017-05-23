@@ -1,0 +1,26 @@
+@media only screen
+and (min-width : 900px)  {
+	#spinny {
+	    width: 30% !important;
+	}
+	
+	#spinny-container {
+		margin-top: 10% !important;
+	}
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	padding: 30px;
+}
+
+#spinny-container {
+	text-align: center; 
+	margin-top: 40%;
+}
+
+#spinny {
+	width: 90%;
+    max-width: 800px;
+    height: auto;
+}
