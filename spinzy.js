@@ -7,7 +7,7 @@ $(document).ready( function() {
 
 	var points = 0;
 	var rate = 1/100;
-	
+	$('#points-value').text(0);
 	
 	$('#spinny').propeller({
 		inertia: 0.995, 

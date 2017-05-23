@@ -5,7 +5,7 @@ and (min-width : 900px)  {
 	}
 	
 	#spinny-container {
-		margin-top: 10% !important;
+		margin-top: 5% !important;
 	}
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 #title {
-	font-size: calc(25px + 2vw);
+	font-size: calc(25px + 3vw);
 }
 
 #points-header,
@@ -29,11 +29,11 @@ body {
 
 #spinny-container {
 	text-align: center; 
-	margin-top: 30%;
+	margin-top: 20%;
 }
 
 #spinny {
-	width: 90%;
+	width: 95%;
     max-width: 800px;
     height: auto;
 }
